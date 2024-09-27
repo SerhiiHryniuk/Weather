@@ -46,6 +46,21 @@
             "related": ".xml"
           }
         }
+      },
+      "ClassLibrary1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Newtonsoft.Json.Bson": "1.0.2",
+          "Newtonsoft.Json.Schema": "4.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary1.dll": {}
+        }
       }
     }
   },
@@ -124,10 +139,16 @@
         "newtonsoft.json.schema.nuspec",
         "packageIcon.png"
       ]
+    },
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/ClassLibrary1.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ClassLibrary1 >= 1.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "Newtonsoft.Json.Bson >= 1.0.2",
       "Newtonsoft.Json.Schema >= 4.0.1"
@@ -165,7 +186,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Університет\\5 Курс\\Вступ до Automotive\\lab 3\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "D:\\Університет\\5 Курс\\Вступ до Automotive\\lab 3\\ClassLibrary1\\ClassLibrary1.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

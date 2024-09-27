@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kbeWD9D8vqIDDmc7mR27SaWEnNXoxe3cPtpDSHn1/CsDdVvv3B0s0DBY8ov9OrTyeldkialJg53oTZ6zSc+pgw==",
+  "success": true,
+  "projectFilePath": "D:\\Університет\\5 Курс\\Вступ до Automotive\\lab 3\\ClassLibrary1\\ClassLibrary1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Serhii\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Serhii\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Serhii\\.nuget\\packages\\newtonsoft.json.schema\\4.0.1\\newtonsoft.json.schema.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

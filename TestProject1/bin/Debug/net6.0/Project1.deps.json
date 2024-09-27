@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Project1/1.0.0": {
         "dependencies": {
+          "ClassLibrary1": "1.0.0",
           "Newtonsoft.Json": "13.0.3",
           "Newtonsoft.Json.Bson": "1.0.2",
           "Newtonsoft.Json.Schema": "4.0.1"
@@ -45,6 +46,16 @@
             "fileVersion": "4.0.1.29408"
           }
         }
+      },
+      "ClassLibrary1/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Newtonsoft.Json.Bson": "1.0.2",
+          "Newtonsoft.Json.Schema": "4.0.1"
+        },
+        "runtime": {
+          "ClassLibrary1.dll": {}
+        }
       }
     }
   },
@@ -74,6 +85,11 @@
       "sha512": "sha512-rbHUKp5WTIbqmLEeJ21nTTDGcfR0LA7bVMzm0bYc3yx6NFKiCIHzzvYbwA4Sqgs7+wNldc5nBlkbithWj8IZig==",
       "path": "newtonsoft.json.schema/4.0.1",
       "hashPath": "newtonsoft.json.schema.4.0.1.nupkg.sha512"
+    },
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

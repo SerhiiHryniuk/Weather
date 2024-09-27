@@ -109,3 +109,15 @@ D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProjec
 D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\obj\Debug\net6.0\TestProject1.pdb
 D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\obj\Debug\net6.0\TestProject1.genruntimeconfig.cache
 D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\obj\Debug\net6.0\ref\TestProject1.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\AutoFixture.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\AutoFixture.AutoMoq.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\Castle.Core.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\Fare.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\Moq.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\Moq.AutoMock.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\NonBlocking.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\ClassLibrary1.dll
+D:\Університет\5 Курс\Вступ до Automotive\lab 3\TestProject1\bin\Debug\net6.0\ClassLibrary1.pdb

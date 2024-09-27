@@ -1,22 +1,25 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
+using ClassLibrary1;
 using Newtonsoft.Json;
 
 public class WeatherService
 {
     private readonly string _apiKey;
-    private readonly HttpClient _httpClient;
+    private readonly IHttpClient _httpClient;
+    private readonly IWeatherDataParser _weatherDataParser;
 
-    public WeatherService(string apiKey)
+    public WeatherService(string apiKey, IHttpClient httpClient, IWeatherDataParser weatherDataParser)
     {
         _apiKey = apiKey;
-        _httpClient = new HttpClient();
+        _httpClient = httpClient;
+        _weatherDataParser = weatherDataParser;
     }
+
 
     public async Task<WeatherData> GetWeather(string city)
     {
-        
-       var response = await _httpClient.GetAsync($"http://api.weatherapi.com/v1/current.json?key={_apiKey}&q={city}");
+        var response = await _httpClient.GetAsync($"http://api.weatherapi.com/v1/current.json?key={_apiKey}&q={city}");
 
         if (!response.IsSuccessStatusCode)
         {
@@ -24,7 +27,7 @@ public class WeatherService
         }
 
         var json = await response.Content.ReadAsStringAsync();
-        return JsonConvert.DeserializeObject<WeatherData>(json);
+        return _weatherDataParser.Parse(json);
     }
 
     public string GetTemperatureMessage(float tempC)
@@ -42,31 +45,6 @@ public class WeatherService
             return "The weather is cold.";
         }
     }
-}
-
-
-public class WeatherData
-{
-    public Location Location { get; set; }
-    public Current Current { get; set; }
-}
-
-public class Location
-{
-    public string Name { get; set; }
-}
-
-public class Current
-{
-    public float temp_c { get; set; }
-    public Condition Condition { get; set; }
-    public int IsDay { get; set; }
-    public int localtime { get; set; }
-}
-
-public class Condition
-{
-    public string Text { get; set; }
 }
 
 public class WeatherServiceException : Exception
